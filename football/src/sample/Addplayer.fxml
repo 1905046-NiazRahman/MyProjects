@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="744.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddplayerController">
+   <children>
+      <TextField fx:id="name" layoutX="489.0" layoutY="137.0" />
+      <TextField fx:id="club" layoutX="489.0" layoutY="178.0" />
+      <TextField fx:id="country" layoutX="489.0" layoutY="221.0" />
+      <TextField fx:id="age" layoutX="489.0" layoutY="308.0" />
+      <TextField fx:id="position" layoutX="489.0" layoutY="261.0" />
+      <TextField fx:id="number" layoutX="489.0" layoutY="355.0" />
+      <TextField fx:id="height" layoutX="489.0" layoutY="399.0" />
+      <TextField fx:id="salary" layoutX="489.0" layoutY="444.0" />
+      <Label layoutX="327.0" layoutY="137.0" prefHeight="25.0" prefWidth="149.0" text="Name :" />
+      <Label layoutX="327.0" layoutY="178.0" prefHeight="25.0" prefWidth="149.0" text="Club:" />
+      <Label layoutX="327.0" layoutY="221.0" prefHeight="25.0" prefWidth="149.0" text="Country:" />
+      <Label layoutX="327.0" layoutY="261.0" prefHeight="25.0" prefWidth="149.0" text="Position:" />
+      <Label layoutX="327.0" layoutY="308.0" prefHeight="25.0" prefWidth="149.0" text="Age:" />
+      <Label layoutX="327.0" layoutY="355.0" prefHeight="25.0" prefWidth="149.0" text="Number:" />
+      <Label layoutX="327.0" layoutY="399.0" prefHeight="25.0" prefWidth="149.0" text="Height:" />
+      <Label layoutX="327.0" layoutY="444.0" prefHeight="25.0" prefWidth="149.0" text="Salary:" />
+      <Button fx:id="add" layoutX="489.0" layoutY="501.0" mnemonicParsing="false" onAction="#addAction" text="Add" />
+      <Button fx:id="exit" layoutX="603.0" layoutY="501.0" mnemonicParsing="false" onAction="#exitAction" text="Exit" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="744.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LogController">
+   <children>
+      <TextField fx:id="club" layoutX="629.0" layoutY="302.0" prefHeight="25.0" prefWidth="141.0" />
+      <PasswordField fx:id="pass" layoutX="629.0" layoutY="360.0" prefHeight="25.0" prefWidth="141.0" />
+      <Label layoutX="480.0" layoutY="302.0" prefHeight="25.0" prefWidth="149.0" text="Club Name :" />
+      <Label layoutX="480.0" layoutY="360.0" prefHeight="25.0" prefWidth="149.0" text="Password :" />
+      <Button fx:id="login" layoutX="629.0" layoutY="413.0" mnemonicParsing="false" onAction="#loginAction" text="Log in" />
+      <Button fx:id="exit" layoutX="735.0" layoutY="413.0" mnemonicParsing="false" onAction="#ExitAction" text="Exit" />
+      <Label alignment="CENTER" layoutX="67.0" layoutY="141.0" prefHeight="180.0" prefWidth="271.0" text="FOOTBALL ">
+         <font>
+            <Font name="Algerian" size="46.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="54.0" layoutY="205.0" prefHeight="193.0" prefWidth="271.0" text="DATABASE">
+         <font>
+            <Font name="Algerian" size="46.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="67.0" layoutY="336.0" prefHeight="180.0" prefWidth="246.0" text="SYSTEM">
+         <font>
+            <Font name="Algerian" size="46.0" />
+         </font>
+      </Label>
+      <Label layoutX="297.0" layoutY="20.0" prefHeight="66.0" prefWidth="532.0" text="MADE BY NIAZ RAHMAN">
+         <font>
+            <Font name="Algerian" size="46.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="11.0" layoutY="302.0" prefHeight="117.0" prefWidth="357.0" text="MANAGEMENT">
+         <font>
+            <Font name="Algerian" size="46.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="366.0" layoutY="77.0" prefHeight="42.0" prefWidth="333.0" text="1905046" textFill="#cd0909">
+         <font>
+            <Font name="Algerian" size="46.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
